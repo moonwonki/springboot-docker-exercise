@@ -17,7 +17,7 @@ public class HelloController {
     public String runScript() {
         try {
             // 실행할 스크립트 경로
-            String scriptPath = "/root/springboot-docker-exercise/webhook1.sh";
+            String scriptPath = "webhook1.sh";
 
             // 스크립트 실행
             Process process = Runtime.getRuntime().exec(scriptPath);
